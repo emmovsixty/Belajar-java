@@ -1,31 +1,26 @@
-import java.util.Scanner;
+
+import java.util.ArrayList;
+
 
 public class latihanInput {
     public static void main(String[] args) {
-        String nama, alamat;
-        Integer umur, gaji, jmlAnak, totGaji;
+        ArrayList<String> dataNama = new ArrayList<>();
+        System.out.println("--- Data Karyawan ---");
 
-        Scanner input = new Scanner(System.in);
+        String nama = "farhan";
+        String nama1 = "mualif";
+        String nama2 = "dika";
+        String nama3 = "luth";
+        String nama4 = "saputra";
+        dataNama.add(nama);
+        dataNama.add(nama1);
+        dataNama.add(nama2);
+        dataNama.add(nama3);
+        dataNama.add(nama4);
 
-        System.out.println("--- Selamat datang di Pendataan Karyawan ---");
-        System.out.println("Masukan Nama lengkap : ");
-        nama = input.nextLine();
-        System.out.println("Umur : ");
-        umur = input.nextInt();
-        System.out.println("Gaji : ");
-        gaji = input.nextInt();
-        System.out.println("Jumlah anak : ");
-        jmlAnak = input.nextInt();
-        totGaji = jmlAnak*gaji;
-
-        System.out.println("--- Data karyawan ---");
-        System.out.println("nama lengkap : "+nama);
-        System.out.println("umur : "+umur);
-        System.out.println("jumlah anak : "+jmlAnak);
-        System.out.println("total gaji : "+totGaji);
-
-
-
+        for (String i : dataNama){
+            System.out.println("nama "+i);
+        }
 
     }
 }

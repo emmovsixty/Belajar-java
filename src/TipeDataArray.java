@@ -38,6 +38,10 @@ public class TipeDataArray {
                 {"cicit"}
         };
 
+        String[] penyakit ={
+                "TBC","COVID","PANU"
+        };
+
 
     }
 }

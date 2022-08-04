@@ -13,9 +13,10 @@ public class InputBufferReader {
 
         System.out.println("masukan nama");
         nama = br.readLine();
-        System.out.println(nama);
-        System.out.println("masukan umur");
+        System.out.println("masukan alamat");
         alamat = br.readLine();
+        System.out.println(nama);
+        System.out.println(alamat);
 
     }
 }
