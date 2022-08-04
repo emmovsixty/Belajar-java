@@ -1,6 +1,5 @@
 import java.util.Date;
 import java.util.Scanner;
-
 public class percabangan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
